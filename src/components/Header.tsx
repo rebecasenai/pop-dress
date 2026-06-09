@@ -39,6 +39,12 @@ export default function Header() {
             className="rounded-full px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:bg-white hover:text-pink-700"
           >
             Contato
+          </Link> 
+          <Link
+            href="/sobre"
+            className="rounded-full px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:bg-white hover:text-pink-700"
+          >
+            Sobre
           </Link>
         </nav>
       </div>

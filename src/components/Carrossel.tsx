@@ -1,9 +1,11 @@
 "use client"
 
+import * as React from "react"
 import Image from "next/image"
 
 import {
   Carousel,
+    type CarouselApi,
   CarouselContent,
   CarouselItem,
   CarouselNext,
@@ -18,9 +20,25 @@ const carrosselImagens = [
 ]
 
 export default function Carrossel() {
+    const [api, setApi] = React.useState<CarouselApi>()
+
+    React.useEffect(() => {
+        if (!api) return
+
+        const timer = window.setInterval(() => {
+            api.scrollNext()
+        }, 3000)
+
+        return () => window.clearInterval(timer)
+    }, [api])
+
   return (
     <section className="w-full px-4 py-6 md:px-6 lg:px-8">
-        <Carousel className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-[2rem] border border-pink-100 bg-white shadow-[0_25px_80px_rgba(244,114,182,0.08)]">
+                <Carousel
+                    setApi={setApi}
+                    opts={{ loop: true }}
+                    className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-[2rem] border border-pink-100 bg-white shadow-[0_25px_80px_rgba(244,114,182,0.08)]"
+                >
             <CarouselContent>
                 {carrosselImagens.map((imagem,index)=>(
                     <CarouselItem key={index}>
