@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "title": "Blusinha Basic",
+    "description": "Blusinha branca de bolinhas pretas",
+    "price": 65.90,
+    "imageSrc": "/produtos/PL1.png",
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "title": "Blusinha Branca",
+    "description": "Blusinha Branca de abotoar com manga de detalhe de renda",
+    "price": 69.90,
+    "imageSrc": "/produtos/PL2.png",
+    "destaque": true
+  },
+  {
+    "id": 3,
+    "title": "Blusinha Blue Basic",
+    "description": "Blusinha azul com alcinha regulável",
+    "price": 65.50,
+    "imageSrc": "/produtos/PL3.png",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "title": "Blusinha Manga Longa Borboleta",
+    "description": "Blusinha manga longa rosa bebe com detalhe de borboleta",
+    "price": 79.90,
+    "imageSrc": "/produtos/PL4.png",
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "title": "Blusinha Vinho Babada",
+    "description": "Blusinha cor vinho tesido confortável e alcinha regulável",
+    "price": 69.90,
+    "imageSrc": "/produtos/PL5.png",
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "title": "Blusinha Blue Babada",
+    "description": "Blusinha azul babada com alcinha regulável",
+    "price": 69.90,
+    "imageSrc": "/produtos/PL6.png",
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "title": "Vestido Floral Primavera",
+    "description": "Vestido midi floral com fundo escorrido e amarração nas costas",
+    "price": 129.90,
+    "imageSrc": "/produtos/PL7.png",
+    "destaque": true
+  },
+  {
+    "id": 8,
+    "title": "Cropped Tricot Pop",
+    "description": "Cropped de tricot modal canelado na cor verde lima",
+    "price": 49.90,
+    "imageSrc": "/produtos/PL8.png",
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "title": "Saia Midi Plissada",
+    "description": "Saia midi plissada preta com elástico confortável na cintura",
+    "price": 89.90,
+    "imageSrc": "/produtos/PL9.png",
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "title": "Calça Pantalona Linho",
+    "description": "Calça pantalona de linho cru com bolsos laterais",
+    "price": 149.90,
+    "imageSrc": "/produtos/PL10.png",
+    "destaque": true
+  },
+  {
+    "id": 11,
+    "title": "Blusinha Ciganinha Rendada",
+    "description": "Blusinha modelo ciganinha ombro a ombro na cor branca",
+    "price": 59.90,
+    "imageSrc": "/produtos/PL11.png",
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "title": "Shorts Jeans Hot Pants",
+    "description": "Shorts jeans lavagem clara com barra desfiada",
+    "price": 79.90,
+    "imageSrc": "/produtos/PL12.png",
+    "destaque": false
+  },
+  {
+    "id": 13,
+    "title": "Vestido Curto Romântico",
+    "description": "Vestido curto rodado na cor vermelha com mangas bufantes",
+    "price": 119.90,
+    "imageSrc": "/produtos/PL13.png",
+    "destaque": true
+  },
+  {
+    "id": 14,
+    "title": "Casaco Cardigan Soft",
+    "description": "Cardigan alongado de tricot leve na cor branca",
+    "price": 98.90,
+    "imageSrc": "/produtos/PL14.png",
+    "destaque": false
+  },
+  {
+    "id": 15,
+    "title": "Blusinha T-Shirt Cotton",
+    "description": "Camiseta 100% algodão",
+    "price": 45.00,
+    "imageSrc": "/produtos/PL15.png",
+    "destaque": false
+  },
+  {
+    "id": 16,
+    "title": "Shorts saia jeans Confort",
+    "description": "Shorts saia jeans com elástico confortável na cintura e lavagem média",
+    "price": 75.00,
+    "imageSrc": "/produtos/PL16.png",
+    "destaque": true
+  },
+  {
+    "id": 17,
+    "title": "Blusinha Cetim Glam",
+    "description": "Blusinha de cetim com alçinha",
+    "price": 74.90,
+    "imageSrc": "/produtos/PL17.png",
+    "destaque": false
+  },
+  {
+    "id": 18,
+    "title": "Saia Curta Couro Eco",
+    "description": "Saia curta de couro sintético com fechamento em zíper frontal",
+    "price": 84.90,
+    "imageSrc": "/produtos/PL18.png",
+    "destaque": false
+  },
+  {
+    "id": 19,
+    "title": "Blusinha Gola Alta Chic",
+    "description": "Blusinha sem manga com gola alta em tecido canelado preto",
+    "price": 55.00,
+    "imageSrc": "/produtos/PL19.png",
+    "destaque": false
+  },
+  {
+    "id": 20,
+    "title": "Vestido coladinho",
+    "description": "Vestido curto modela o corpo",
+    "price": 169.90,
+    "imageSrc": "/produtos/PL20.png",
+    "destaque": true
+  },
+  {
+    "id": 21,
+    "title": "Blusinha Regata Linho",
+    "description": "Regata básica de linho na cor terracota",
+    "price": 62.90,
+    "imageSrc": "/produtos/PL21.png",
+    "destaque": false
+  },
+  {
+    "id": 22,
+    "title": "Saia curta",
+    "description": "Saia curta jeans",
+    "price": 89.90,
+    "imageSrc": "/produtos/PL22.png",
+    "destaque": true
+  },
+  {
+    "id": 23,
+    "title": "Calça Jeans Wide Leg",
+    "description": "Calça jeans wide leg tendência com lavagem média",
+    "price": 139.90,
+    "imageSrc": "/produtos/PL23.png",
+    "destaque": true
+  },
+  {
+    "id": 24,
+    "title": "Blusinha Amarrações Frontal",
+    "description": "Blusinha cropped com amarração frontal na cor lilás",
+    "price": 49.90,
+    "imageSrc": "/produtos/PL24.png",
+    "destaque": false
+  },
+  {
+    "id": 25,
+    "title": "Shorts Alfaiataria Confort",
+    "description": "Shorts de alfaiataria com pregas na cor verde oliva",
+    "price": 75.00,
+    "imageSrc": "/produtos/PL25.png",
+    "destaque": false
+  },
+  {
+    "id": 26,
+    "title": "Blusinha Lurex Glow",
+    "description": "Blusinha de brilho lurex perfeita para a noite",
+    "price": 79.90,
+    "imageSrc": "/produtos/PL26.png",
+    "destaque": false
+  },
+  {
+    "id": 27,
+    "title": "Vestido Rose",
+    "description": "Vestido justo rose",
+    "price": 95.90,
+    "imageSrc": "/produtos/PL27.png",
+    "destaque": false
+  },
+  {
+    "id": 28,
+    "title": "Camisa Linho Oversized",
+    "description": "Camisa de botão oversized em algodão",
+    "price": 115.00,
+    "imageSrc": "/produtos/PL28.png",
+    "destaque": true
+  },
+  {
+    "id": 29,
+    "title": "Blusinha Crepe Elegante",
+    "description": "Blusinha de crepe com detalhe em pregas no decote v",
+    "price": 68.90,
+    "imageSrc": "/produtos/PL29.png",
+    "destaque": false
+  },
+  {
+    "id": 30,
+    "title": "Saia Jeans Midi",
+    "description": "Saia jeans midi com fenda frontal e lavagem escura",
+    "price": 109.90,
+    "imageSrc": "/produtos/PL30.png",
+    "destaque": false
+  },
+  {
+    "id": 31,
+    "title": "Blusinha Transpassada Listras",
+    "description": "Blusinha modelo transpassado com estampa de listras finas",
+    "price": 59.90,
+    "imageSrc": "/produtos/PL31.png",
+    "destaque": false
+  },
+  {
+    "id": 32,
+    "title": "Jaqueta Jeans Pop",
+    "description": "Jaqueta jeans cropped com botões em prata envelhecida",
+    "price": 145.00,
+    "imageSrc": "/produtos/PL32.png",
+    "destaque": true
+  },
+  {
+    "id": 33,
+    "title": "Blusinha Viscose Fresh",
+    "description": "Blusinha leve de viscose amarela com botões decorativos",
+    "price": 54.90,
+    "imageSrc": "/produtos/PL33.png",
+    "destaque": false
+  }
+]
