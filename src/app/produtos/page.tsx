@@ -1,35 +1,33 @@
-import CardProduto from "@/components/CardProduto"
-import products from "../../../produtos.json"
+import CardProduto from "@/components/CardProduto";
+import products from "../../../produtos.json"; // ajuste o caminho se necessário
 
 export default function Produtos() {
-    return (
-        <main className="relative min-h-screen overflow-hidden px-4 py-10 lg:px-8">
-            <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(251,207,232,0.75),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(252,231,243,0.9),transparent_34%)]" />
+  return (
+    <div className="w-full min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-16">
+      <div className="max-w-6xl mx-auto">
+        <header className="mb-10 text-center md:text-left">
+          <h1 className="text-3xl font-extrabold text-pink-950 mb-3 tracking-tight">
+            Nossos Produtos
+          </h1>
+          <p className="max-w-2xl text-pink-700/80 mx-auto md:mx-0">
+            Encontre as melhores peças da Pop Dress, com qualidade e estilo.
+          </p>
+        </header>
 
-            <section className="mx-auto max-w-7xl rounded-[2rem] border border-pink-100 bg-white/85 px-6 py-10 shadow-[0_20px_70px_rgba(244,114,182,0.08)] backdrop-blur md:px-10">
-                <div className="mx-auto max-w-3xl text-center">
-                    <span className="inline-flex rounded-full border border-pink-100 bg-pink-100 px-4 py-1 text-lg font-semibold uppercase tracking-[0.24em] text-pink-700">
-                        Catálogo
-                    </span>
-                    <p className="mt-4 text-base leading-7 text-pink-700 md:text-lg">
-                        Uma vitrine completa com peças selecionadas para você
-                    </p>
-                </div>
-
-                <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
-                    {products.map((produto) => (
-                        <CardProduto
-                            key={produto.id}
-                            id={produto.id}
-                            title={produto.title}
-                            description={produto.description}
-                            price={produto.price}
-                            imageSrc={produto.imageSrc}
-                            destaque={produto.destaque}
-                        />
-                    ))}
-                </div>
-            </section>
-        </main>
-    );
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+          {products.map((product) => (
+            <CardProduto
+              key={product.id}
+              id={product.id}
+              title={product.title}
+              description={product.description}
+              price={product.price}
+              imageSrc={product.imageSrc}
+              destaque={product.destaque}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
