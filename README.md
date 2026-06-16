@@ -127,8 +127,8 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar 
 
 👩‍💻 Autora
 Rebeca – idealizadora da Pop Dress
-💌 contato@popdress.com
-🔗 Instagram (link fictício)
+💌 contato@popdress.com (fictício)
+🔗 Instagram (camporesere)
 
 🙌 Agradecimentos
 Shadcn/ui pelos componentes acessíveis.
