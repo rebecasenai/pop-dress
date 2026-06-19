@@ -1,140 +1,249 @@
-👗 Pop Dress - E-commerce de Moda Feminina
-Bem-vindo ao repositório da Pop Dress! Este é um projeto de e-commerce desenvolvido com Next.js, Tailwind CSS e TypeScript, focado em oferecer uma experiência elegante, responsiva e intuitiva para amantes da moda feminina.
+# 👗 Pop Dress - E-commerce de Moda Feminina
 
-🚀 Tecnologias utilizadas
-Next.js 15 – Framework React com renderização híbrida (SSR/CSR) e roteamento baseado em arquivos.
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)](https://reactjs.org/)
 
-React 19 – Biblioteca para construção de interfaces.
+> **Pop Dress** é uma loja virtual de moda feminina desenvolvida com Next.js, TypeScript e Tailwind CSS. O projeto oferece uma experiência de compra moderna, responsiva e intuitiva, com foco em usabilidade e design elegante.
 
-TypeScript – Tipagem estática para maior segurança e manutenibilidade.
+---
 
-Tailwind CSS – Framework CSS utilitário para estilização rápida e responsiva.
+## 📋 Índice
 
-Lucide React – Conjunto de ícones vetoriais modernos.
+- [📸 Demonstração](#-demonstração)
+- [✨ Funcionalidades](#-funcionalidades)
+- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🚀 Como Executar](#-como-executar)
+- [📦 Scripts Disponíveis](#-scripts-disponíveis)
+- [🧩 Componentes Principais](#-componentes-principais)
+- [🎨 Paleta de Cores](#-paleta-de-cores)
+- [📱 Responsividade](#-responsividade)
+- [🤝 Como Contribuir](#-como-contribuir)
+- [📄 Licença](#-licença)
 
-Shadcn/ui – Componentes acessíveis e personalizáveis (Card, Badge, Button, Carousel).
+---
 
-📁 Estrutura de pastas
+## 📸 Demonstração
+
+```Link Na Vercel 
+https://pop-dress-oquw.vercel.app/?authuser=0
+
+✨ Funcionalidades
+🏠 Página Inicial
+Carrossel de banners em tela cheia com navegação lateral
+
+Vitrine de produtos em destaque com filtro automático
+
+Chamadas para ação (CTA) intuitivas
+
+👗 Página de Produtos
+Busca textual com filtro por nome e descrição
+
+Filtro por categoria com contador dinâmico de itens
+
+Ordenação por relevância, menor preço e maior preço
+
+Indicador do número de resultados encontrados
+
+Mensagem amigável quando nenhum produto é encontrado
+
+Botão "Limpar filtros" com exibição condicional
+
+👤 Página Sobre
+Seção com história da marca e da proprietária
+
+Cards com missão, estilo e valores
+
+Imagem de perfil com proporção responsiva
+
+🧭 Navegação
+Header fixo com menu responsivo (hambúrguer no mobile)
+
+Logo + nome da marca com destaque visual
+
+Navegação para Home, Produtos, Contato e Sobre
+
+📱 Responsividade
+Layout adaptado para mobile, tablet e desktop
+
+Grid fluido de produtos (1 coluna no mobile, 2 em tablet, 3 em desktop)
+
+Paddings fluidos com breakpoints do Tailwind
+
+🛠️ Tecnologias Utilizadas
+Tecnologia	Descrição
+Next.js 14	Framework React com renderização híbrida (SSR/CSR)
+React 18	Biblioteca para construção de interfaces
+TypeScript	Superset tipado do JavaScript
+Tailwind CSS	Framework CSS utilitário para estilização rápida
+Lucide React	Ícones vetoriais de alta qualidade
+Shadcn/ui	Componentes acessíveis e personalizáveis
+📁 Estrutura do Projeto
 text
 pop-dress/
 ├── public/
-│   ├── carrossel/          # Imagens dos banners do carrossel
+│   ├── carrossel/          # Imagens do banner principal
 │   ├── logo/               # Logotipo da marca
-│   └── perfil/             # Foto da proprietária
+│   └── produtos/           # Imagens dos produtos (PL1.png ... PL50.png)
+│
 ├── src/
-│   ├── app/                # Rotas e páginas (Next.js App Router)
+│   ├── app/
 │   │   ├── page.tsx        # Página inicial (Home)
 │   │   ├── produtos/
-│   │   │   └── page.tsx    # Página de listagem de produtos
-│   │   ├── contato/
-│   │   │   └── page.tsx    # Página de contato (a ser implementada)
-│   │   └── sobre/
-│   │       └── page.tsx    # Página Sobre
-│   ├── components/         # Componentes reutilizáveis
+│   │   │   └── page.tsx    # Vitrine com filtros e busca
+│   │   ├── sobre/
+│   │   │   └── page.tsx    # Página institucional
+│   │   └── contato/
+│   │       └── page.tsx    # Página de contato
+│   │
+│   ├── components/
 │   │   ├── Header.tsx      # Cabeçalho com menu responsivo
-│   │   ├── Footer.tsx      # Rodapé
-│   │   ├── Carrossel.tsx   # Carrossel de banners (full-width)
+│   │   ├── Footer.tsx      # Rodapé com informações da marca
+│   │   ├── Carrossel.tsx   # Componente de banners com navegação
 │   │   └── CardProduto.tsx # Card individual de produto
-│   └── styles/             # Estilos globais (se houver)
-├── produtos.json           # Base de dados mockada dos produtos
+│   │
+│   └── components/ui/      # Componentes Shadcn/ui (Button, Card, Badge, etc.)
+│
+├── produtos.json           # Base de dados dos produtos (50 itens)
 ├── package.json
-├── tailwind.config.js
 ├── tsconfig.json
+├── tailwind.config.ts
 └── README.md
-🛠️ Como rodar o projeto localmente
+🚀 Como Executar
 Pré-requisitos
-Node.js (versão 18 ou superior)
+Node.js 18+ e npm/yarn/pnpm instalados
 
-npm ou yarn
-
-Passos
-Clone o repositório
-
+Passo a passo
 bash
-git clone https://github.com/seu-usuario/pop-dress.git
+# 1. Clone o repositório
+git clone https://github.com/rebecasenai/pop-dress.git
 cd pop-dress
-Instale as dependências
 
-bash
+# 2. Instale as dependências
 npm install
 # ou
 yarn install
-Execute o servidor de desenvolvimento
+# ou
+pnpm install
 
-bash
+# 3. Execute o servidor de desenvolvimento
 npm run dev
 # ou
 yarn dev
-Acesse no navegador
-Abra http://localhost:3000 para visualizar o projeto.
+# ou
+pnpm dev
 
+# 4. Acesse no navegador
+# http://localhost:3000
 Build para produção
-
 bash
 npm run build
 npm start
-✨ Funcionalidades principais
-Carrossel de banners – Exibição em tela cheia com navegação por setas.
+📦 Scripts Disponíveis
+Script	Descrição
+npm run dev	Inicia o servidor de desenvolvimento com hot-reload
+npm run build	Gera a versão de produção otimizada
+npm start	Executa a versão de produção
+npm run lint	Executa o linter para verificar padrões de código
+🧩 Componentes Principais
+Header.tsx
+Cabeçalho fixo com logo, título da marca e navegação
 
-Vitrine de produtos – Grid responsivo com cards exibindo título, descrição, preço e selo de "Destaque".
+Menu hambúrguer para dispositivos móveis (com ícones Lucide)
 
-Menu responsivo – Navegação desktop com links estilizados e menu hambúrguer em dispositivos móveis.
+Estado de isOpen para controlar abertura/fechamento
 
-Página Sobre – Seção com a história da marca e missão, com layout adaptável.
+Footer.tsx
+Rodapé com copyright e mensagem institucional
 
-Design consistente – Paleta de cores em tons de rosa, bordas arredondadas e sombras suaves.
+Design com gradiente rosa suave
 
-Dados mockados – Os produtos são carregados a partir de um arquivo JSON local (fácil de substituir por API futuramente).
+Carrossel.tsx
+Carrossel de banners em tela cheia com navegação lateral
 
+Imagens com object-cover para preencher o espaço
+
+Setas de navegação com fundo semitransparente
+
+CardProduto.tsx
+Card individual de produto com imagem, título, descrição e preço
+
+Badge de destaque para produtos em promoção
+
+Botão com preço formatado em moeda BRL
+
+Efeitos de hover com transição suave
+
+Página de Produtos (/produtos)
+Client Component com useState para gerenciar filtros
+
+Busca por nome e descrição
+
+Filtro por categoria com extração dinâmica das categorias do JSON
+
+Ordenação por relevância, menor/major preço
+
+Contagem dinâmica de itens por categoria
+
+Mensagem personalizada para lista vazia
+
+🎨 Paleta de Cores
+Cor	Uso
+pink-50 / pink-100	Fundos suaves e bordas
+pink-200 / pink-300	Elementos interativos (hover, focus)
+pink-400 / pink-500	Botões primários e destaques
+pink-600 / pink-700	Textos e elementos em destaque
+pink-950	Títulos e textos principais
+white/85	Fundos translúcidos com efeito blur
+slate-600 / slate-700	Textos secundários
 📱 Responsividade
-O projeto foi desenvolvido com foco em mobile-first, utilizando breakpoints do Tailwind:
+Breakpoint	Largura	Comportamento
+Mobile	< 640px	1 coluna de produtos, menu hambúrguer, paddings reduzidos
+Tablet	640px - 1024px	2 colunas de produtos, menu horizontal
+Desktop	> 1024px	3 colunas de produtos, espaçamentos amplos
+Classes Tailwind utilizadas:
 
-Mobile (até 640px): Menu hambúrguer, texto centralizado, cards em coluna única.
+hidden / md:flex – controle de visibilidade
 
-Tablet (640px a 1024px): Menu horizontal, grid de produtos em 2 colunas.
+flex-col / md:flex-row – orientação de layout
 
-Desktop (acima de 1024px): Layout completo com navegação à direita, grid em 3 ou 4 colunas.
+px-4 sm:px-6 lg:px-16 – paddings fluidos
 
-Todos os componentes (Header, Footer, Carrossel, Cards) se adaptam fluidamente.
+grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 – grid responsivo
 
-🎨 Personalização
-Alterar cores
-As cores principais estão configuradas no tailwind.config.js. Atualmente utilizamos tons de rosa:
+🤝 Como Contribuir
+Fork o projeto
 
-pink-50 a pink-950
+Clone o seu fork:
 
-Destaque com rose-500 para pequenos acentos
+bash
+git clone https://github.com/seu-usuario/pop-dress.git
+Crie uma branch para sua feature:
 
-Para mudar a paleta, edite o arquivo de configuração ou substitua as classes diretamente nos componentes.
+bash
+git checkout -b minha-feature
+Commit suas alterações:
 
-Adicionar novos produtos
-Edite o arquivo produtos.json seguindo a estrutura:
+bash
+git commit -m "feat: minha nova feature"
+Push para a branch:
 
-json
-{
-  "id": 1,
-  "title": "Vestido Floral",
-  "description": "Vestido leve com estampa de flores",
-  "price": 89.90,
-  "imageSrc": "/produtos/vestido-floral.jpg",
-  "destaque": true
-}
-Substituir imagens
-As imagens estão em public/. Substitua pelos seus próprios arquivos mantendo os mesmos nomes ou atualize os caminhos nos componentes.
+bash
+git push origin minha-feature
+Abra um Pull Request no repositório original
 
 📄 Licença
-Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar e distribuir.
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-👩‍💻 Autora
-Rebeca – idealizadora da Pop Dress
-💌 contato@popdress.com (fictício)
-🔗 Instagram (camporesere)
+🙏 Agradecimentos
+Next.js – Framework incrível para React
 
-🙌 Agradecimentos
-Shadcn/ui pelos componentes acessíveis.
+Tailwind CSS – Estilização rápida e eficiente
 
-Lucide pelos ícones bonitos.
+Lucide – Ícones belos e consistentes
 
-Tailwind CSS pela agilidade no desenvolvimento.
+Shadcn/ui – Componentes acessíveis
 
-Feito com carinho para você que ama moda feminina! 🌸
+Desenvolvido com 💖 por Rebeca

@@ -5,7 +5,8 @@
     "description": "Blusinha branca de bolinhas pretas",
     "price": 65.90,
     "imageSrc": "/produtos/PL1.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Blusas"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Blusinha Branca de abotoar com manga de detalhe de renda",
     "price": 69.90,
     "imageSrc": "/produtos/PL2.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Blusas"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "description": "Blusinha azul com alcinha regulável",
     "price": 65.50,
     "imageSrc": "/produtos/PL3.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "description": "Blusinha manga longa rosa bebe com detalhe de borboleta",
     "price": 79.90,
     "imageSrc": "/produtos/PL4.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "description": "Blusinha cor vinho tesido confortável e alcinha regulável",
     "price": 69.90,
     "imageSrc": "/produtos/PL5.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "description": "Blusinha azul babada com alcinha regulável",
     "price": 69.90,
     "imageSrc": "/produtos/PL6.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "description": "Vestido midi floral com fundo escorrido e amarração nas costas",
     "price": 129.90,
     "imageSrc": "/produtos/PL7.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Vestidos"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "description": "Cropped de tricot modal canelado na cor verde lima",
     "price": 49.90,
     "imageSrc": "/produtos/PL8.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "description": "Saia midi plissada preta com elástico confortável na cintura",
     "price": 89.90,
     "imageSrc": "/produtos/PL9.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Saias"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "description": "Calça pantalona de linho cru com bolsos laterais",
     "price": 149.90,
     "imageSrc": "/produtos/PL10.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Calças"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "description": "Blusinha modelo ciganinha ombro a ombro na cor branca",
     "price": 59.90,
     "imageSrc": "/produtos/PL11.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "description": "Shorts jeans lavagem clara com barra desfiada",
     "price": 79.90,
     "imageSrc": "/produtos/PL12.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Shorts"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "description": "Vestido curto rodado na cor vermelha com mangas bufantes",
     "price": 119.90,
     "imageSrc": "/produtos/PL13.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Vestidos"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "description": "Cardigan alongado de tricot leve na cor branca",
     "price": 98.90,
     "imageSrc": "/produtos/PL14.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Casacos"
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "description": "Camiseta 100% algodão",
     "price": 45.00,
     "imageSrc": "/produtos/PL15.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "description": "Shorts saia jeans com elástico confortável na cintura e lavagem média",
     "price": 75.00,
     "imageSrc": "/produtos/PL16.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Shorts"
   },
   {
     "id": 17,
@@ -133,7 +149,8 @@
     "description": "Blusinha de cetim com alçinha",
     "price": 74.90,
     "imageSrc": "/produtos/PL17.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 18,
@@ -141,7 +158,8 @@
     "description": "Saia curta de couro sintético com fechamento em zíper frontal",
     "price": 84.90,
     "imageSrc": "/produtos/PL18.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Saias"
   },
   {
     "id": 19,
@@ -149,7 +167,8 @@
     "description": "Blusinha sem manga com gola alta em tecido canelado preto",
     "price": 55.00,
     "imageSrc": "/produtos/PL19.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 20,
@@ -157,7 +176,8 @@
     "description": "Vestido curto modela o corpo",
     "price": 169.90,
     "imageSrc": "/produtos/PL20.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Vestidos"
   },
   {
     "id": 21,
@@ -165,7 +185,8 @@
     "description": "Regata básica de linho na cor terracota",
     "price": 62.90,
     "imageSrc": "/produtos/PL21.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 22,
@@ -173,7 +194,8 @@
     "description": "Saia curta jeans",
     "price": 89.90,
     "imageSrc": "/produtos/PL22.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Saias"
   },
   {
     "id": 23,
@@ -181,7 +203,8 @@
     "description": "Calça jeans wide leg tendência com lavagem média",
     "price": 139.90,
     "imageSrc": "/produtos/PL23.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Calças"
   },
   {
     "id": 24,
@@ -189,7 +212,8 @@
     "description": "Blusinha cropped com amarração frontal na cor lilás",
     "price": 49.90,
     "imageSrc": "/produtos/PL24.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 25,
@@ -197,7 +221,8 @@
     "description": "Shorts de alfaiataria com pregas na cor verde oliva",
     "price": 75.00,
     "imageSrc": "/produtos/PL25.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Shorts"
   },
   {
     "id": 26,
@@ -205,7 +230,8 @@
     "description": "Blusinha de brilho lurex perfeita para a noite",
     "price": 79.90,
     "imageSrc": "/produtos/PL26.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 27,
@@ -213,7 +239,8 @@
     "description": "Vestido justo rose",
     "price": 95.90,
     "imageSrc": "/produtos/PL27.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Vestidos"
   },
   {
     "id": 28,
@@ -221,7 +248,8 @@
     "description": "Camisa de botão oversized em algodão",
     "price": 115.00,
     "imageSrc": "/produtos/PL28.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Camisas"
   },
   {
     "id": 29,
@@ -229,7 +257,8 @@
     "description": "Blusinha de crepe com detalhe em pregas no decote v",
     "price": 68.90,
     "imageSrc": "/produtos/PL29.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 30,
@@ -237,7 +266,8 @@
     "description": "Saia jeans midi com fenda frontal e lavagem escura",
     "price": 109.90,
     "imageSrc": "/produtos/PL30.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Saias"
   },
   {
     "id": 31,
@@ -245,7 +275,8 @@
     "description": "Blusinha modelo transpassado com estampa de listras finas",
     "price": 59.90,
     "imageSrc": "/produtos/PL31.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
   },
   {
     "id": 32,
@@ -253,7 +284,8 @@
     "description": "Jaqueta jeans cropped com botões em prata envelhecida",
     "price": 145.00,
     "imageSrc": "/produtos/PL32.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Casacos"
   },
   {
     "id": 33,
@@ -261,6 +293,160 @@
     "description": "Blusinha leve de viscose amarela com botões decorativos",
     "price": 54.90,
     "imageSrc": "/produtos/PL33.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 34,
+    "title": "Vestido Girassol",
+    "description": "Vestido curto com busto estampa de girassóis",
+    "price": 105.00,
+    "imageSrc": "/produtos/PL34.png",
+    "destaque": false,
+    "categoria": "Vestidos"
+  },
+  {
+    "id": 35,
+    "title": "Blusinha Modal Premium",
+    "description": "Blusinha de tricot modal toque macio na cor nude",
+    "price": 72.90,
+    "imageSrc": "/produtos/PL35.png",
+    "destaque": true,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 36,
+    "title": "Calça Clochard Pop",
+    "description": "Calça modelo clochard",
+    "price": 129.90,
+    "imageSrc": "/produtos/PL36.png",
+    "destaque": false,
+    "categoria": "Calças"
+  },
+  {
+    "id": 37,
+    "title": "Blusinha Manga Princesa",
+    "description": "Blusinha lisa com manga curta estilo princesa",
+    "price": 58.00,
+    "imageSrc": "/produtos/PL37.png",
+    "destaque": false,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 38,
+    "title": "Conjunto Moletinho Casual",
+    "description": "Conjunto com calça e blusa moletom",
+    "price": 139.90,
+    "imageSrc": "/produtos/PL38.png",
+    "destaque": true,
+    "categoria": "Conjuntos"
+  },
+  {
+    "id": 39,
+    "title": "Blusinha Sweet Heart",
+    "description": "Blusinha decote coração vermelha com manguinhas delicadas",
+    "price": 64.90,
+    "imageSrc": "/produtos/PL39.png",
+    "destaque": false,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 40,
+    "title": "Vestido rosa",
+    "description": "Vestido rosa princesa delicado de cetim",
+    "price": 189.90,
+    "imageSrc": "/produtos/PL40.png",
+    "destaque": true,
+    "categoria": "Vestidos"
+  },
+  {
+    "id": 41,
+    "title": "Blusinha Animal Print",
+    "description": "Blusinha de alcinha com estampa clássica de oncinha",
+    "price": 59.90,
+    "imageSrc": "/produtos/PL41.png",
+    "destaque": false,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 42,
+    "title": "Shorts Saia Urban",
+    "description": "Shorts saia assimétrico em tecido alfaiataria em várias opções de cores",
+    "price": 79.90,
+    "imageSrc": "/produtos/PL42.png",
+    "destaque": false,
+    "categoria": "Shorts"
+  },
+  {
+    "id": 43,
+    "title": "Blusinha lisa Branca",
+    "description": "Blusinha t-shirt simples malha de gym",
+    "price": 49.90,
+    "imageSrc": "/produtos/PL43.png",
+    "destaque": false,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 44,
+    "title": "Vestido Poá Vintage",
+    "description": "Vestido midi preto com bolinhas brancas e fenda discreta",
+    "price": 135.00,
+    "imageSrc": "/produtos/PL44.png",
+    "destaque": true,
+    "categoria": "Vestidos"
+  },
+  {
+    "id": 45,
+    "title": "Blusinha Nó Frontal",
+    "description": "Blusinha branca com detalhe de nó fixo na barra frontal",
+    "price": 52.90,
+    "imageSrc": "/produtos/PL45.png",
+    "destaque": false,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 46,
+    "title": "Calça Jogger Urban",
+    "description": "Calça jogger de moletom",
+    "price": 119.90,
+    "imageSrc": "/produtos/PL46.png",
+    "destaque": false,
+    "categoria": "Calças"
+  },
+  {
+    "id": 47,
+    "title": "Blusinha Canelada Básica",
+    "description": "Blusinha gola u canelada na cor rosa",
+    "price": 45.90,
+    "imageSrc": "/produtos/PL47.png",
+    "destaque": false,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 48,
+    "title": "Kimono Boho Chic",
+    "description": "Kimono longo com franjas na barra",
+    "price": 89.90,
+    "imageSrc": "/produtos/PL48.png",
+    "destaque": true,
+    "categoria": "Casacos"
+  },
+  {
+    "id": 49,
+    "title": "Blusinha Rendada Elegance",
+    "description": "Blusinha off-white inteira trabalhada em renda delicada",
+    "price": 79.90,
+    "imageSrc": "/produtos/PL49.png",
+    "destaque": false,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 50,
+    "title": "Camisa lisa Algodão Personalizável",
+    "description": "Camisa lisa 100% algodão",
+    "price": 40.90,
+    "imageSrc": "/produtos/PL50.png",
+    "destaque": true,
+    "categoria": "Camisas"
   }
 ]
